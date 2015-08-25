@@ -1,12 +1,7 @@
 # kennelclass
-Una aplicación sencilla para gestionar una peluquería de animales (¿Perros?)       
+Una aplicación sencilla para gestionar una peluquería de personas
+   
 
-								  / \__           
- 								 (    @\___      
-								  /         O     
-								 /   (_____/      
-								/_____/   U       
-        
 
 Demo de [kennelclass](http://5.196.11.71:1337/)
 
