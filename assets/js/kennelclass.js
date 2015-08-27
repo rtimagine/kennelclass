@@ -220,8 +220,8 @@ function buscaFichas() {
             var imagen = ficha.imagen ? '<img src="data:image/jpeg;base64,' + ficha.imagen + '"/>' : '';
             $('#ul-fichas').append('<li id=' + ficha.id + '><a href="/fichas" style="padding-right: 80px;">' + imagen +
                 '<h1>Nombre: <strong>' + ficha.nombre +
-                '</strong></h1><p>Dueño: <strong>' + ficha.propietario +
-                '</strong></h1><p>Raza: <strong>' + ficha.raza +
+                '</strong></h1><p>Nº Cliente: <strong>' + ficha.propietario +
+            /* RTR: QUITO ESTO:    '</strong></h1><p>Raza: <strong>' + ficha.raza + */
                 '</strong></p></a><a href="#cita" data-rel="popup" data-position-to="window"  data-transition="pop">Dar cita</a></li>');
             $('#ul-fichas').listview('refresh');
         });

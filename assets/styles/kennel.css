@@ -1,3 +1,12 @@
+/* RTR: AÑADO EL FONDO CON .UI-PAGE */
+
+.ui-page {
+background:#834D6D;
+}
+
+/* FIN RTR: AÑADO EL FONDO CON .UI-PAGE */
+
+
 video_div {
 	 width: 120px;
 	 height: 140px;

@@ -1,10 +1,8 @@
 <div data-role="page">
     <div data-role="header">
         <div data-role="controlgroup" data-type="horizontal" class="ui-mini ui-btn-right">
-            <a href="/" onclick=resetCam(); class="ui-btn ui-btn-icon-left ui-icon-home">Inicio</a>
         </div>
-        <img src="/images/logo.png" class="ui-btn-left" style="height: 2.8em" />
-        <h6>Nueva ficha</h6> 
+        <h6>Ficha de cliente</h6>
     </div>
 
     <br>
@@ -13,7 +11,7 @@
         <fieldset class="ui-grid-a">
             <div class="ui-block-a">
                 <div style="width:90%" class="ui-field-contain">
-                    <label for="textinput-prop">Propietario:</label>
+                    <label for="textinput-prop">Nº Cliente:</label>
                     <input data-clear-btn="true" name="textinput-prop" id="textinput-prop" placeholder="" value="" type="text">
                 </div>
             </div>
@@ -32,15 +30,7 @@
                     <input data-clear-btn="true" name="textinput-tel" id="textinput-tel" placeholder="" value="" type="tel">
                 </div>
             </div>
-            <div class="ui-block-b">
-                <div style="width:90%" class="ui-field-contain">
-                    <!--	<label for="textinput-raza">Raza:</label>
-			<input data-clear-btn="true"  name="textinput-raza" id="textinput-raza" placeholder="" value="" type="text">  -->
-                    <label for="select-razas" class="select">Raza:</label>
-                    <select name="select-razas" id="select-razas">
-                    </select>
-                </div>
-            </div>
+
         </fieldset>
         <fieldset class="ui-grid-a">
             <div class="ui-block-a">
@@ -51,7 +41,7 @@
             </div>
             <div class="ui-block-b">
                 <div style="width:90%" class="ui-field-contain">
-                    <label for="textinput-color">Color:</label>
+                    <label for="textinput-color">Color del pelo:</label>
                     <input data-clear-btn="true" name="textinput-color" id="textinput-color" placeholder="" value="" type="text">
                 </div>
             </div>
@@ -59,7 +49,7 @@
         <fieldset class="ui-grid-a">
             <div class="ui-block-a">
                 <div style="width:90%" class="ui-field-contain">
-                    <label for="textinput-mail">Correo electrónico:</label>
+                    <label for="textinput-mail">Email:</label>
                     <input data-clear-btn="true" name="textinput-mail" id="textinput-mail" placeholder="" value="" type="email">
                 </div>
             </div>
@@ -172,7 +162,7 @@
         <div data-role="controlgroup" data-type="horizontal" class="ui-mini ui-btn-left">
             <a href="/" onclick=recargaInicio(); class="ui-btn ui-btn-icon-left ui-icon-home">Inicio</a>
         </div>
-        <h6>Kennel Class</h6>
+        <h6>Person Class</h6>
         <div data-role="controlgroup" data-type="horizontal" class="ui-mini ui-btn-right">
             <a href="/" onclick=save(); class="ui-btn ui-btn-icon-left ui-icon-check">Guardar</a>
             <a href="/" onclick=recargaInicio(); class="ui-btn ui-btn-icon-left ui-icon-back">Cancelar</a>
