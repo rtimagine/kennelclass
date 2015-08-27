@@ -1,4 +1,4 @@
-# kennelclass
+# PersonClass
 Una aplicación sencilla para gestionar una peluquería de personas
    
 
@@ -17,13 +17,12 @@ Para **instalar** necesitarás:
 * [sails](http://sailsjs.org/#/getStarted)
 * [mongodb](http://www.mongodb.org/downloads)
 
-Después clona kennelclass e instala los paquetes que faltan:
+Después clona personclass e instala los paquetes que faltan:
 
 ```
 $ git clone https://github.com/carvilsi/kennelclass.git
-$ cd kennelclass
+$ cd personclass
 $ sudo npm install
-$ sudo npm install sails-mongo
 ```
 
 Para ejecutar:
