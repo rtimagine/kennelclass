@@ -38,6 +38,7 @@ var edad = 'edad=';
 var caracter = 'caracter=';
 var problemasMedicos = 'problemasMedicos=';
 var imagen = 'imagen=';
+var depilacion = 'depilacion=';
 
 var fechaServicio = 'fechaServicio=';
 var horaServicio = 'horaServicio=';
@@ -89,6 +90,7 @@ function save() {
     }
     rest = rest + propietario + $('#textinput-prop').val() + and +
         telefono + $('#textinput-tel').val() + and +
+        depilacion + $('#textinput-dep').val() + and +
         movil + $('#textinput-mov').val() + and +
         email + $('#textinput-mail').val() + and +
         nombre + $('#textinput-nom').val() + and +
@@ -342,6 +344,7 @@ function cargaFichas() {
             setTimeout(function () {
                 $('#textinput-prop').val(datos.propietario);
                 $('#textinput-tel').val(datos.telefono);
+                $('#textinput-dep').val(datos.depilacion);
                 $('#textinput-mov').val(datos.movil);
                 $('#textinput-mail').val(datos.email);
                 $('#textinput-nom').val(datos.nombre);
