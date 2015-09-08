@@ -45,3 +45,22 @@ label.ui-btn.ui-corner-all.ui-btn-inherit.ui-radio-off.ui-first-child {
 #ui-field-contain {
     max-width: 300px;
 }
+
+.estilo {
+	width: 85%;
+}
+
+
+.centrar {
+	margin: 0 auto;
+}
+
+.centrarbotones {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.ui-icon-plus {
+	width: 45px;
+	height: 45px;
+}

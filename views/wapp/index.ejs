@@ -1,20 +1,22 @@
 <br>
 <br>
 <div id="contenido">
-    <h3 id="cabecera-citas" class="ui-bar ui-bar-a ui-corner-all" title="Listado de Citas" align="center">Citas</h3>
 
-    <div class="ui-body ui-body-a ui-corner-all">
-        <!--<div align="center">-->
+    <div class="ui-body ui-body-a ui-corner-all centrar estilo">
+      <h3 id="cabecera-citas" class="ui-bar ui-bar-a ui-corner-all" title="Listado de Citas" align="center">Citas</h3>
+
+        <!-- <div class="centrarbotones"> -->
         <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
             <input type="radio" name="radio-choice-b" id="radio-todos" value="0">
             <label for="radio-todos">Todos</label>
             <input type="radio" name="radio-choice-b" id="radio-hechos" value="1">
-            <label for="radio-hechos">Terminados</label>
+            <label for="radio-hechos">Terminado</label>
             <input type="radio" name="radio-choice-b" id="radio-falta" value="2" checked="checked">
-            <label for="radio-falta">Pendientes</label>
+            <label for="radio-falta">Pendiente</label>
         </fieldset>
 
-        <!--</div>-->
+        <!-- </div> -->
+
         <div class="ui-grid-d">
             <div class="ui-block-a">
                 <!--<a href="#" id="unDiaMenos" title="Un d&iacute;a menos" onclick=buscaServicios(-1); class="ui-btn ui-mini ui-icon-arrow-l ui-btn-icon-top  ui-corner-all">Un d&iacute;a menos</a>-->
@@ -31,15 +33,18 @@
             </div>
         </div>
     </div>
+  </br>
+    <div class="estilo centrar">
     <ul data-role="listview" data-inset="true" data-split-theme="a" data-split-icon="bullets" id="ul-servicios">
     </ul>
+  </div>
     <br>
     <br>
-    <h3 class="ui-bar ui-bar-a ui-corner-all" title="B&uacute;squeda de Fichas" align="center">Fichas de cliente:</h3>
-    <div id="ui-field-contain">
-        <input onKeyUp="buscaFichas()" name="busqueda-fichas" id="busqueda-fichas" value="" type="search">
+    <!-- <h3 class="ui-bar ui-bar-a ui-corner-all" title="B&uacute;squeda de Fichas" align="center">Fichas de cliente:</h3> -->
+    <div id="ui-field-contain" class="centrar estilo">
+        <input onKeyUp="buscaFichas()" placeholder="Fichas de cliente:" name="busqueda-fichas" id="busqueda-fichas" value="" type="search">
     </div>
-    <div id="lista-fichas">
+    <div id="lista-fichas" class="estilo centrar">
         <ul data-role="listview" id="ul-fichas" data-split-theme="a" data-split-icon="calendar" data-inset="true">
         </ul>
     </div>
